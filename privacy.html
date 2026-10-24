@@ -36,21 +36,23 @@
   <ul>
     <li>A comment is read so that a reply can be drafted for the channel owner, who decides whether to post it.</li>
     <li>To draft a reply, the comment text may be processed by an AI model, either one running on the owner’s private
-        server or Anthropic’s Claude service.</li>
+        server or Anthropic’s Claude service. Commenters’ names are not sent to it.</li>
+    <li>Each selected comment and its draft reply are sent to the channel owner’s private Telegram chat, where the owner
+        approves or changes the reply.</li>
     <li>Public counts are used for a weekly summary that only the channel owner sees.</li>
     <li>Information is never sold, never used for advertising, and never used to build profiles of anyone.</li>
   </ul>
 
   <h2>Storage and deletion</h2>
   <ul>
-    <li>Everything is kept on a private server operated by the channel owner.</li>
-    <li>Comment text and commenter names are deleted within 30 days.</li>
+    <li>Comments are stored on a private server operated by the channel owner, and are deleted from it within 30 days.</li>
+    <li>Copies in the owner’s private Telegram chat stay there until the owner deletes them.</li>
     <li>The tool’s sign-in credentials are stored only on that server and are never shared.</li>
   </ul>
 
   <h2>Sharing</h2>
   <p>Information is not shared with anyone, except that comment text may be processed by an AI model to draft a
-     reply, as described above.</p>
+     reply, and comments and drafts are delivered to the owner’s private Telegram chat, as described above.</p>
 
   <h2>Your choices</h2>
   <ul>

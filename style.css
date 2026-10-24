@@ -1,0 +1,17 @@
+:root { --bg: #f6f8fb; --card: #ffffff; --ink: #0b1f3a; --soft: #4a5d78; --accent: #0f9488; --line: #dbe3ee; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #0b1f3a; --card: #163054; --ink: #ffffff; --soft: #a0b6d2; --accent: #14b8a6; --line: #24456f; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Ubuntu, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
+.brand { display: flex; align-items: center; gap: 12px; font-weight: 700; font-size: 20px; }
+.mark { display: inline-grid; place-items: center; width: 40px; height: 40px; border-radius: 10px; background: #0b1f3a; color: #fff; font-weight: 800; }
+.mark span { color: #14b8a6; }
+h1 { font-size: 34px; line-height: 1.2; margin: 32px 0 12px; }
+h2 { font-size: 21px; margin: 32px 0 8px; }
+p, li { color: var(--soft); }
+strong { color: var(--ink); }
+a { color: var(--accent); }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 20px 24px; margin: 24px 0; }
+footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 15px; }
